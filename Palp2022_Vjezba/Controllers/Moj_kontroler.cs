@@ -37,5 +37,9 @@ namespace Palp2022_Vjezba.Controllers
             return View();
         }
         
+        public string VratiVrijeme()
+        {
+            return DateTime.Now.ToString();
+        }
     }
 }
